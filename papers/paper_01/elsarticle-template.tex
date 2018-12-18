@@ -1,0 +1,109 @@
+\documentclass[review]{elsarticle}
+
+%\usepackage{lineno,hyperref}
+\usepackage{hyperref}
+%\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Elsevier bibliography styles
+%%%%%%%%%%%%%%%%%%%%%%%
+%% To change the style, put a % in front of the second line of the current style and
+%% remove the % from the second line of the style you would like to use.
+%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Numbered
+%\bibliographystyle{model1-num-names}
+
+%% Numbered without titles
+%\bibliographystyle{model1a-num-names}
+
+%% Harvard
+%\bibliographystyle{model2-names.bst}\biboptions{authoryear}
+
+%% Vancouver numbered
+%\usepackage{numcompress}\bibliographystyle{model3-num-names}
+
+%% Vancouver name/year
+%\usepackage{numcompress}\bibliographystyle{model4-names}\biboptions{authoryear}
+
+%% APA style
+%\bibliographystyle{model5-names}\biboptions{authoryear}
+
+%% AMA style
+%\usepackage{numcompress}\bibliographystyle{model6-num-names}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{Identifying Topological Insulators from bandstructure images using Convolutional Neural Networks}
+
+%% Group authors per affiliation:
+\author{Norman S Israel}
+\address{The University of the West Indies, Mona, Kingston, Jamaica}
+%\fntext[myfootnote]{Since 1880.}
+
+\author{Marhoun Ferhat}
+\address{The University of the West Indies, Mona, Kingston, Jamaica}
+%\fntext[myfootnote]{Since 1880.}
+
+%% or include affiliations in footnotes:
+%\author[mymainaddress,mysecondaryaddress]{Marhoun Ferhat}
+%\ead[url]{www.elsevier.com}
+
+%\author[mysecondaryaddress]{Global Customer Service\corref{mycorrespondingauthor}}
+%\cortext[mycorrespondingauthor]{Corresponding author}
+%\ead{support@elsevier.com}
+
+%\address[mymainaddress]{1600 John F Kennedy Boulevard, Philadelphia}
+%\address[mysecondaryaddress]{360 Park Avenue South, New York}
+
+\begin{abstract}
+This template helps you to create a properly formatted \LaTeX\ manuscript.
+\end{abstract}
+
+\begin{keyword}
+\texttt{elsarticle.cls}\sep \LaTeX\sep Elsevier \sep template
+\MSC[2010] 00-01\sep  99-00
+\end{keyword}
+
+\end{frontmatter}
+
+%\linenumbers
+
+\section{Introduction}
+
+In 1980, while working with MOSFETs, Klaus von Klitzing made the unexpected discovery that under the conditions of low temperatures and high magnetic fields, certain materials have quantized hall conductance. This discovery (\cite{klitzing_etal}) is known as the Integer Quantum Hall effect and is one of the best known topological phases of matter. He was awarded the 1985 Nobel Prize in Physics for this discovery. Topological phase transitions had already been studied in magnetic systems by theorists David J. Thouless, F. Duncan Haldane and J. Michael Kosterlitz \cite{haldane, Thouless_etal, haldanemag, kosterlitz, kosterlitz_thouless, kos_thou}. Their work were the first to explain such phenomena in terms of a branch of mathematics called topology. Their work layed the conceptual foundations for understanding topological phase transitions. They were awarded the 2016 Nobel Prize in Physics for their work. It is a relatively new field which is now exploding with research activity, for various reasons, including but not limited to, their applications in the technology industry to build quantum computers, spintronics as well as in quantum sensing.
+
+The focus of this paper is on one type of topological phase known as a topological insulator. In the last few years, the experimental and theoretical explorations of topological insulators have seen great progress \cite{kou_etal, yan_zhang, ando}. These materials possess the property that they are insulators in the bulk but conductors on their boundaries. These boundary states are symmetry protected. It is this symmetry protection that leads to their topological nature. These materials are becoming increasingly important due to the potential applications of their exotic properties in industry. They may also serve as `laboratories' for exploring fundamental physics; from the varying of the physical constants \cite{joseph_etal} like the speed of light, planck's constant and the fine structure constant, to the search for new fundamental particles such as majorana fermions. With applications that are both industrial and academic in nature, topological insulators have become increasingly interesting materials to study.
+
+In recent years, the use of machine learning algorithms to search for these materials has exploded \cite{zhang_etal, verg_etal, tang_etal}. This explosion has lead to a plethora of predictions of new topological insulators and other topological materials. In this paper, we present some results along a similar line of research. We use the bandstructure images from various databases for our study, relying on image recognition techniques for our work. We use convolutional neural networks to make predictions and compare our predictions with that of other groups. The paper is divided as follows:
+\begin{enumerate}
+\item section~\ref{methods} - we discuss the tools used and the neural network architecture.
+\item section~\ref{ra} - we discuss the results of our work in detail.
+\item section~\ref{summary} - we summarize the results of our work.
+\item section~\ref{future} - we discuss future directions of this work.
+\end{enumerate}
+
+\section{Methods}\label{methods}
+
+In this work, we use TensorFlow to develop our model. TensorFlow is a machine learning tool developed by Google, that uses tensors for data representation and dataflow graphs for computation in deep learning. 
+
+\section{Results and Analysis}\label{ra}
+
+\section{Summary}\label{summary}
+
+\section{Future Work}\label{future}
+
+
+%\section*{References}
+
+\bibliography{materials_references}
+
+\end{document}

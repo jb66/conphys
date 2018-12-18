@@ -1,0 +1,115 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{klitzing_etal}
+K.~v. Klitzing, G.~Dorda, M.~Pepper,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.45.494}{New method for
+  high-accuracy determination of the fine-structure constant based on quantized
+  hall resistance}, Phys. Rev. Lett. 45 (1980) 494--497.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.45.494}
+  {\path{doi:10.1103/PhysRevLett.45.494}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.45.494}
+
+\bibitem{haldane}
+F.~Haldane,
+  \href{http://www.sciencedirect.com/science/article/pii/037596018390631X}{Continuum
+  dynamics of the 1-d heisenberg antiferromagnet: Identification with the o(3)
+  nonlinear sigma model}, Physics Letters A 93~(9) (1983) 464 -- 468.
+\newblock \href
+  {http://dx.doi.org/https://doi.org/10.1016/0375-9601(83)90631-X}
+  {\path{doi:https://doi.org/10.1016/0375-9601(83)90631-X}}.
+\newline\urlprefix\url{http://www.sciencedirect.com/science/article/pii/037596018390631X}
+
+\bibitem{Thouless_etal}
+D.~J. Thouless, M.~Kohmoto, M.~P. Nightingale, M.~den Nijs,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.49.405}{Quantized hall
+  conductance in a two-dimensional periodic potential}, Phys. Rev. Lett. 49
+  (1982) 405--408.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.49.405}
+  {\path{doi:10.1103/PhysRevLett.49.405}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.49.405}
+
+\bibitem{haldanemag}
+F.~D.~M. Haldane,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.50.1153}{Nonlinear field
+  theory of large-spin heisenberg antiferromagnets: Semiclassically quantized
+  solitons of the one-dimensional easy-axis n\'eel state}, Phys. Rev. Lett. 50
+  (1983) 1153--1156.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.50.1153}
+  {\path{doi:10.1103/PhysRevLett.50.1153}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.50.1153}
+
+\bibitem{kosterlitz}
+J.~M. {Kosterlitz}, {The critical properties of the two-dimensional xy model},
+  Journal of Physics C Solid State Physics 7 (1974) 1046--1060.
+\newblock \href {http://dx.doi.org/10.1088/0022-3719/7/6/005}
+  {\path{doi:10.1088/0022-3719/7/6/005}}.
+
+\bibitem{kosterlitz_thouless}
+J.~M. {Kosterlitz}, D.~J. {Thouless}, {Long range order and metastability in
+  two dimensional solids and superfluids. (Application of dislocation theory)},
+  Journal of Physics C Solid State Physics 5 (1972) L124--L126.
+\newblock \href {http://dx.doi.org/10.1088/0022-3719/5/11/002}
+  {\path{doi:10.1088/0022-3719/5/11/002}}.
+
+\bibitem{kos_thou}
+J.~M. {Kosterlitz}, D.~J. {Thouless}, {Ordering, metastability and phase
+  transitions in two-dimensional systems}, Journal of Physics C Solid State
+  Physics 6 (1973) 1181--1203.
+\newblock \href {http://dx.doi.org/10.1088/0022-3719/6/7/010}
+  {\path{doi:10.1088/0022-3719/6/7/010}}.
+
+\bibitem{kou_etal}
+L.~Kou, Y.~Ma, Z.~Sun, T.~Heine, C.~Chen,
+  \href{https://doi.org/10.1021/acs.jpclett.7b00222}{Two-dimensional
+  topological insulators: Progress and prospects}, The Journal of Physical
+  Chemistry Letters 8~(8) (2017) 1905--1919, pMID: 28394616.
+\newblock \href
+  {http://arxiv.org/abs/https://doi.org/10.1021/acs.jpclett.7b00222}
+  {\path{arXiv:https://doi.org/10.1021/acs.jpclett.7b00222}}, \href
+  {http://dx.doi.org/10.1021/acs.jpclett.7b00222}
+  {\path{doi:10.1021/acs.jpclett.7b00222}}.
+\newline\urlprefix\url{https://doi.org/10.1021/acs.jpclett.7b00222}
+
+\bibitem{yan_zhang}
+B.~Yan, S.-C. Zhang,
+  \href{http://stacks.iop.org/0034-4885/75/i=9/a=096501}{Topological
+  materials}, Reports on Progress in Physics 75~(9) (2012) 096501.
+\newline\urlprefix\url{http://stacks.iop.org/0034-4885/75/i=9/a=096501}
+
+\bibitem{ando}
+Y.~{Ando}, {Topological Insulator Materials}, Journal of the Physical Society
+  of Japan 82~(10) (2013) 102001--102001.
+\newblock \href {http://arxiv.org/abs/1304.5693} {\path{arXiv:1304.5693}},
+  \href {http://dx.doi.org/10.7566/JPSJ.82.102001}
+  {\path{doi:10.7566/JPSJ.82.102001}}.
+
+\bibitem{joseph_etal}
+J.~Maciejko, X.-L. Qi, H.~D. Drew, S.-C. Zhang,
+  \href{https://link.aps.org/doi/10.1103/PhysRevLett.105.166803}{Topological
+  quantization in units of the fine structure constant}, Phys. Rev. Lett. 105
+  (2010) 166803.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.105.166803}
+  {\path{doi:10.1103/PhysRevLett.105.166803}}.
+\newline\urlprefix\url{https://link.aps.org/doi/10.1103/PhysRevLett.105.166803}
+
+\bibitem{zhang_etal}
+T.~{Zhang}, Y.~{Jiang}, Z.~{Song}, H.~{Huang}, Y.~{He}, Z.~{Fang}, H.~{Weng},
+  C.~{Fang}, {Catalogue of Topological Electronic Materials}, ArXiv
+  e-prints\href {http://arxiv.org/abs/1807.08756} {\path{arXiv:1807.08756}}.
+
+\bibitem{verg_etal}
+M.~G. {Vergniory}, L.~{Elcoro}, C.~{Felser}, B.~A. {Bernevig}, Z.~{Wang}, {The
+  (High Quality) Topological Materials In The World}, ArXiv e-prints\href
+  {http://arxiv.org/abs/1807.10271} {\path{arXiv:1807.10271}}.
+
+\bibitem{tang_etal}
+F.~{Tang}, H.~C. {Po}, A.~{Vishwanath}, X.~{Wan}, {Towards ideal topological
+  materials: Comprehensive database searches using symmetry indicators}, ArXiv
+  e-prints\href {http://arxiv.org/abs/1807.09744} {\path{arXiv:1807.09744}}.
+
+\end{thebibliography}
